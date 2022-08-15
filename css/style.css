@@ -357,7 +357,7 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover; 
 	text-align: center;
-	padding: 2% 2%;
+	padding: 3em;
 }
 
 .section__title--services{
@@ -453,7 +453,7 @@ header{
 	background-color: var(--clr-dark);
 	color: var(--clr-light);
 	text-align: center;
-
+	padding: 3em;
 }
 
 .portfolio{
