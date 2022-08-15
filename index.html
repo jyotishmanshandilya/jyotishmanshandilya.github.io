@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+	<header>
+		<div class="logo">
+			<img src="imgs/logo.png" alt="logo">
+		</div>
+		<button class="nav-toggle" arial="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#Home" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#Services" class="nav__link">My Services</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+			</ul>
+		</nav>
+		<!-- <div class="hamburger">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div> -->
+	</header>
+
+<!-- Introduction -->
+	<section class="intro" id="Home">
+		<h1 class="section__title section__title--intro">
+			Hi, I am <strong>Jyotishman Shandilya</strong>
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">front-end dev</p>
+		<img src="imgs/portrait.jpg" alt="Jyotishman smiling" class="intro__img">
+	</section>
+
+
+<!--My services  -->
+	<section class="my-services" id="Services">
+		<h2 class="section__title section__title--services">
+			What I do
+		</h2>
+		<div class="services">
+			<div class="service">
+				<h3>Design+Development</h3>
+				<p>Designing websites from scratch to the given requirements. </p>
+			</div>
+
+			<div class="service">
+				<h3>Hosting+Domain Management</h3>
+				<p>Buying and/or managing hosting and domains, to relieve one burden off your shoulders </p>
+			</div>
+
+			<div class="service">
+				<h3>Custom/Wordpress websites</h3>
+				<p>Coding websites or making wordpress websites</p>
+			</div>
+
+		</div>
+		<button class="services__button" onclick=" window.location.href ='https://heartandsoul.hk/';">My Work</button>
+	</section>
+
+<!-- About Me -->
+	<section class="about-me" id="about">
+		<h2 class="section__title section__title--about">
+			Who I am
+		</h2>
+		<p class="section__subtitle section__subtitle--about">
+			Exploring new ideas everyday
+		</p>
+		<div class="about-me__body">
+			<p>I love getting involved in new exciting projects that challenges me and brings me out of my comfort zone, because that is where real growth happend. In the past few years, i've become obsessed with learning new coding languages and expanding my arsenal. I've recently gotten into HTML, CSS and Javascript. After learning the basics, feel the need to work on some projects, so that i master these languages and learn more about them. Join me on my journey to become the best web developer in the world. Cheers!!</p>
+			<p></p>
+		</div>
+
+		<img class="about-me__img" src="imgs/who-am-i.jpg" alt="Jyotishman's picture" >
+	</section>
+
+
+<!-- My work -->
+	<section class="my-work" id="work">
+		<h2 class="section__title section__title--work">My work</h2>
+		<p class="section__subtitle section__subtitle--work">This is the Hongkong based company i've worked with in the past as their IT specialist and web developer</p>
+		<div class="portfolio">
+			<a class="portfolio__item" href="https://heartandsoul.hk/" >
+				<img class="portfolio__img" src="imgs/vedas-home.png" alt="homepage of work website" >
+			</a>
+
+			<a class="portfolio__item" href="https://heartandsoul.hk/one-to-one-guided-meditation/">
+				<img class="portfolio__img"  src="imgs/vedas-guided-meditation.png" alt="guided meditation page of work website" >
+			</a>
+
+			<a class="portfolio__item" href="https://heartandsoul.hk/social-impact/">
+				<img class="portfolio__img" src="imgs/vedas-social-impact.png" alt="social imapct page of work website" >
+			</a>
+		</div>
+	</section>
+
+<!-- Footer -->
+	<footer>
+		<a class="footer__link" href="mailto:jyotishmanshandilyaggn@gmail.com" >jyotishmanshandilyaggn@gmail.com</a>
+		<ul class="social-list">
+			<li class="social-list__item">
+				<a href="https://www.instagram.com/jyotishman_jbx/" class="social-list__link">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://www.linkedin.com/in/jyotishman-shandilya-ab6579227/" class="social-list__link">
+					<i class="fa-brands fa-linkedin"></i>
+				</a>
+			</li>
+			<li class="social-list__item">
+				<a href="https://github.com/jyotishmanshandilya?tab=repositories" class="social-list__link">
+					<i class="fa-brands fa-github"></i>
+				</a>
+			</li>
+		</ul>
+	</footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
